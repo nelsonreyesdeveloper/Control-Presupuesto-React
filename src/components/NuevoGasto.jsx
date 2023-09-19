@@ -8,7 +8,7 @@ const NuevoGasto = ({openModal,animarModal}) => {
       <img onClick={() =>{
         openModal()
         animarModal()
-      }} src="src/assets/img/nuevo-gasto.svg" alt="" />
+      }} src="img/nuevo-gasto.svg" alt="" />
 
     </div>
   )

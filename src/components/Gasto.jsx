@@ -57,7 +57,7 @@ const Gasto = ({ gasto, modalIsOpen, closeModal, customStyles, animar, setGasto,
                 <div className='gasto sombra'>
 
                     <div className='contenido-gasto'>
-                        <img src={`/src/assets/img/icono_${categoria}.svg`} alt="" />
+                        <img src={`img/icono_${categoria}.svg`} alt="" />
                         <div className='descripcion-gasto'>
                             <input type="hidden" value={id} />
                             <p className='categoria'>  {categoria}</p>
